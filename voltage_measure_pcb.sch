@@ -268,4 +268,6 @@ Wire Wire Line
 Connection ~ 6500 3850
 Wire Wire Line
 	6500 3850 6500 4350
+Wire Wire Line
+	3850 2900 4300 2900
 $EndSCHEMATC
