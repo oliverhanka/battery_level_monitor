@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name custom_icons)(type KiCad)(uri /Users/oliver/Development/Hardware/voltage_measure_pcb/ressources/custom_icons.pretty)(options "")(descr ""))
+)

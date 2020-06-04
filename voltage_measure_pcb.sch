@@ -1,0 +1,271 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:BSS84 Q1
+U 1 1 5E983D0F
+P 6400 3150
+F 0 "Q1" H 6605 3104 50  0000 L CNN
+F 1 "BSS84" H 6605 3195 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6600 3075 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 6400 3150 50  0001 L CNN
+	1    6400 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5E985011
+P 3650 3000
+F 0 "J1" H 3758 3281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3758 3190 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 3650 3000 50  0001 C CNN
+F 3 "~" H 3650 3000 50  0001 C CNN
+	1    3650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5E986051
+P 3650 4050
+F 0 "J2" H 3758 4231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3758 4140 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 3650 4050 50  0001 C CNN
+F 3 "~" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5E986833
+P 7250 3150
+F 0 "JP1" V 7204 3218 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 7295 3218 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7250 3150 50  0001 C CNN
+F 3 "~" H 7250 3150 50  0001 C CNN
+	1    7250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E988271
+P 6500 4500
+F 0 "R1" H 6570 4546 50  0000 L CNN
+F 1 "R" H 6570 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 4500 50  0001 C CNN
+F 3 "~" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E988778
+P 6500 5050
+F 0 "R2" H 6570 5096 50  0000 L CNN
+F 1 "R" H 6570 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 5050 50  0001 C CNN
+F 3 "~" H 6500 5050 50  0001 C CNN
+	1    6500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E989200
+P 6900 5050
+F 0 "C1" H 7015 5096 50  0000 L CNN
+F 1 "100nF" H 7015 5005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 4900 50  0001 C CNN
+F 3 "~" H 6900 5050 50  0001 C CNN
+	1    6900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E9899D1
+P 5800 5400
+F 0 "#PWR0101" H 5800 5150 50  0001 C CNN
+F 1 "GND" H 5805 5227 50  0000 C CNN
+F 2 "" H 5800 5400 50  0001 C CNN
+F 3 "" H 5800 5400 50  0001 C CNN
+	1    5800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E989E81
+P 4100 4350
+F 0 "#PWR0102" H 4100 4100 50  0001 C CNN
+F 1 "GND" H 4105 4177 50  0000 C CNN
+F 2 "" H 4100 4350 50  0001 C CNN
+F 3 "" H 4100 4350 50  0001 C CNN
+	1    4100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E98A480
+P 4100 3250
+F 0 "#PWR0103" H 4100 3000 50  0001 C CNN
+F 1 "GND" H 4105 3077 50  0000 C CNN
+F 2 "" H 4100 3250 50  0001 C CNN
+F 3 "" H 4100 3250 50  0001 C CNN
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0104
+U 1 1 5E98CDFB
+P 4100 3800
+F 0 "#PWR0104" H 4100 3650 50  0001 C CNN
+F 1 "+BATT" H 4115 3973 50  0000 C CNN
+F 2 "" H 4100 3800 50  0001 C CNN
+F 3 "" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0105
+U 1 1 5E98D4CD
+P 6150 2350
+F 0 "#PWR0105" H 6150 2200 50  0001 C CNN
+F 1 "+BATT" H 6165 2523 50  0000 C CNN
+F 2 "" H 6150 2350 50  0001 C CNN
+F 3 "" H 6150 2350 50  0001 C CNN
+	1    6150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4050 4100 4050
+Wire Wire Line
+	4100 4050 4100 3800
+Wire Wire Line
+	3850 4150 4100 4150
+Wire Wire Line
+	4100 4150 4100 4350
+Wire Wire Line
+	3850 3100 4100 3100
+Wire Wire Line
+	4100 3100 4100 3250
+Wire Wire Line
+	3850 3000 4300 3000
+Text Label 4300 2900 0    50   ~ 0
+EN
+Text Label 4300 3000 0    50   ~ 0
+ADC
+Text Label 4700 4800 0    50   ~ 0
+ADC
+$Comp
+L Transistor_FET:BSS123 Q2
+U 1 1 5ED920F5
+P 5700 3650
+F 0 "Q2" H 5904 3696 50  0000 L CNN
+F 1 "BSS123" H 5904 3605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 3575 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/ds30366.pdf" H 5700 3650 50  0001 L CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5ED9682F
+P 5800 2750
+F 0 "R4" H 5870 2796 50  0000 L CNN
+F 1 "10k" H 5870 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5730 2750 50  0001 C CNN
+F 3 "~" H 5800 2750 50  0001 C CNN
+	1    5800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5ED97275
+P 5300 4050
+F 0 "R3" H 5370 4096 50  0000 L CNN
+F 1 "100k" H 5370 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5230 4050 50  0001 C CNN
+F 3 "~" H 5300 4050 50  0001 C CNN
+	1    5300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3150 6200 3150
+Wire Wire Line
+	5800 3450 5800 3150
+Wire Wire Line
+	5800 2600 5800 2500
+Wire Wire Line
+	5800 2500 6150 2500
+Wire Wire Line
+	6150 2500 6150 2350
+Wire Wire Line
+	6150 2500 6500 2500
+Wire Wire Line
+	6500 2500 6500 2950
+Connection ~ 6150 2500
+Wire Wire Line
+	5800 2900 5800 3150
+Connection ~ 5800 3150
+Wire Wire Line
+	6500 3350 6500 3850
+Wire Wire Line
+	6500 4650 6500 4800
+Wire Wire Line
+	6500 5200 6500 5300
+Wire Wire Line
+	6500 5300 6900 5300
+Wire Wire Line
+	6900 5300 6900 5200
+Connection ~ 6500 5300
+Wire Wire Line
+	6900 4900 6900 4800
+Wire Wire Line
+	6900 4800 6500 4800
+Connection ~ 6500 4800
+Wire Wire Line
+	6500 4800 6500 4900
+Wire Wire Line
+	5500 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 3900
+Wire Wire Line
+	5300 3650 4700 3650
+Connection ~ 5300 3650
+Wire Wire Line
+	5800 3850 5800 5300
+Wire Wire Line
+	5300 4200 5300 5300
+Wire Wire Line
+	5300 5300 5800 5300
+Connection ~ 5800 5300
+Wire Wire Line
+	5800 5300 6500 5300
+Wire Wire Line
+	5800 5300 5800 5400
+Wire Wire Line
+	6500 4800 4700 4800
+Text Label 4700 3650 0    50   ~ 0
+EN
+Wire Wire Line
+	6500 2500 7250 2500
+Wire Wire Line
+	7250 2500 7250 3000
+Connection ~ 6500 2500
+Wire Wire Line
+	7250 3300 7250 3850
+Wire Wire Line
+	7250 3850 6500 3850
+Connection ~ 6500 3850
+Wire Wire Line
+	6500 3850 6500 4350
+$EndSCHEMATC
