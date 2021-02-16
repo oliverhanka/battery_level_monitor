@@ -45,7 +45,7 @@ The board is hand solderable with some practise. Components are 0805 and SOT23 f
 |R4 |	10k 0805|	1 |
 |C1 |	100nF 0805|	1 |
 |Q1 |	BSS84 SOT23|	1 |
-|Q1 |	BSS123 SOT23 |	1 |
+|Q2 |	BSS123 SOT23 |	1 |
 
 ### PCB Rendering
 ![PCB front](doc/pcb_top_rendering.png) | ![PCB back](doc/pcb_bottom_rendering.png)
